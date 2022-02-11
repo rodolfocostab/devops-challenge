@@ -28,6 +28,7 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm run lint
+    - run: npm install --global prettier
     - run: npm run prettier
     - run: npm run test
     # - run: npm run build
